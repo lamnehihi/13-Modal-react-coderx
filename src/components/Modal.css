@@ -1,0 +1,48 @@
+.Modal {
+  background-color: white;
+  width: 850px;
+  border-radius: 5px;
+  padding: 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Modal .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Modal .body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.Modal .body p {
+  width: 774px;
+}
+
+.Modal .btn {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Modal .btn button{
+  padding: .5rem;
+  font-size: 16px;
+
+}
+
+.Modal .btn .decline{
+  margin-right: 3rem;
+  background-color: #D63447;
+  border: none;
+}
+
+.Modal .btn .accept{
+  margin-right: 1rem;
+  background-color: #28A745;
+  border: none;
+}
